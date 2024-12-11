@@ -9,10 +9,21 @@
 Сначала клонируйте этот репозиторий на ваш локальный компьютер:
 
 ```bash
-git clone https://github.com/your-username/Logs_bot.git
-cd Logs_bot
+git clone https://github.com/6haitandimon/Docker_Logs_TG_Bot.git
+cd Docker_Logs_TG_Bot
 ```
 ### 2. Установите зависимости
+Если не установлен python-venv, то снчала установить его:
+```bash
+#ubutu
+sudo apt install python3-venv
+#mac os
+brew install virtualenv
+#windows
+pip install virtualenv
+
+```
+Затем создать окружение и установить зависимости:
 ```bash
 python3 -m venv venv
 source venv/bin/activate  # Для Linux/macOS
